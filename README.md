@@ -23,3 +23,4 @@ python3 -m magie bin
 ```
 
 qui montrera la représentation binaire cachée.
+![demonstration](demo.png)
