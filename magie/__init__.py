@@ -34,4 +34,6 @@ class Card:
                 repr_str += " "
             repr_str += "\n"
         return repr_str
-        
+
+# caches the creation of all the cards in the python module        
+all_cards: list[Card] = [Card(i) for i in range(6)]
